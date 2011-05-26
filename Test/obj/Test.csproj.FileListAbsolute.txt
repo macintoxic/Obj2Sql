@@ -1,0 +1,12 @@
+C:\Working\Obj2Sql\Test\bin\Debug\SQLite.Interop.DLL
+C:\Working\Obj2Sql\Test\bin\Debug\Test.dll
+C:\Working\Obj2Sql\Test\bin\Debug\Test.pdb
+C:\Working\Obj2Sql\Test\bin\Debug\nunit.framework.dll
+C:\Working\Obj2Sql\Test\bin\Debug\System.Data.SQLite.dll
+C:\Working\Obj2Sql\Test\bin\Debug\System.Data.SQLite.pdb
+C:\Working\Obj2Sql\Test\bin\Debug\System.Data.SQLite.xml
+C:\Working\Obj2Sql\Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Working\Obj2Sql\Test\obj\Debug\Test.dll
+C:\Working\Obj2Sql\Test\obj\Debug\Test.pdb
+C:\Working\Obj2Sql\Test\bin\Debug\Obj2Sql.exe
+C:\Working\Obj2Sql\Test\bin\Debug\Obj2Sql.pdb
