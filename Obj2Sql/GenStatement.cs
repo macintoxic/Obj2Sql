@@ -35,6 +35,8 @@ namespace Obj2Sql
         /// <param name="isPk">Indicates if the field is primary key/identity field</param>
         /// <param name="name">Name of the member</param>
         /// <param name="dbType">The DbType of the parameter </param>
+        /// 
+        [CoverageExclude]
         public ParameterInfo(bool isPk, string name, DbType dbType)
         {
             IsPk = isPk;
@@ -299,8 +301,7 @@ namespace Obj2Sql
                 throw new NullReferenceException("At least one primary key or identity  field  must be informed.");
 
             if (!parameterCache.ContainsKey(objKey))
-            {
-                ;
+            {                
                 CacheParameters(obj, identityFields);
             }
             ObjectInfo objInfo = parameterCache[objKey];

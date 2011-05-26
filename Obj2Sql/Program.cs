@@ -10,12 +10,18 @@ using System.Data;
 
 namespace Obj2Sql
 {
+    public class CoverageExcludeAttribute : System.Attribute { }
+
     static class Program
     {
+
+        
+
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        [STAThread]
+        [STAThread, CoverageExclude]
         static void Main()
         {
             SampleObj obj = new SampleObj();
